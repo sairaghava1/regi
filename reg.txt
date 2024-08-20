@@ -1,0 +1,70 @@
+
+<html>
+<head>
+<title>student registration page</title>
+</head>
+<body bgcolor="#BB8FCE">
+<br>
+<br>
+<form>
+<label>firstname</label>
+<input type="text" name="firstname" size="15"/>
+<br>
+<br>
+<label>lastname</label>
+<input type="text" name="lastname" size="15"/>
+<br>
+<br>
+<label>cource</label>
+<select>
+<option value="cource">cource</option>
+<option value="btech">btech</option>
+<option value="mtech">mtech</option>
+<option value="mba">mba</option>
+<option value="midical">medical</option>
+</select>
+<br>
+<br>
+<label>branch</label>
+<select>
+<option value="branch">branch</option>
+<option value="CIVIL">CIVIL</option>
+<option value="EEE">EEE</option>
+<option value="MECH">MECH</option>
+<option value="ECE">ECE</option>
+<option value="CSE">CSE</option>
+</select>
+<br>
+<br>
+<label>gender</label><br>
+<input type="radio" id="male" value="male" name="gender"/>male<br>
+<input type="radio" id="female" value="female" name="gender"/>female<br>
+<input type="radio" id="other" value="other" name="gender"/>other<br>
+<br>
+<label>phone</label>
+<input type="text"name="country code " value="+91" size="2"/>
+<input type="text" name="phone" size="10"/>
+<br>
+<br>
+<label>address</label>
+<textarea cols="80" rows="5" value="address">
+</textarea>
+<br>
+<br>
+<label>email</label>
+<input type="email"id="email" name="email">
+<br>
+<br>
+<label>password</label>
+<input type="password"id="pass" name="pass">
+<br>
+<br>
+<label>re type password</label>
+<input type="password"id="pass" name="pass">
+<br>
+<br>
+<input type="button"value="submit"/>
+</form>
+</body>
+</html>
+ 
